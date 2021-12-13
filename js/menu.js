@@ -17,7 +17,6 @@ const slideMenu = ({
   const burgerBtn = document.querySelector(openBtn);
   const navigation = document.querySelector(menu);
   const navigationClose = document.querySelectorAll(closeTrigger);
-  console.log(navigationClose);
 
   burgerBtn.addEventListener('click', () => {
     openMenu(navigation, classActiveMenu)
